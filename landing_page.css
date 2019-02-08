@@ -1,9 +1,95 @@
 body {
 	height: 100%;
+	font-family: 'Rubik', sans-serif;
+	color: black;
 }
 
-.main_section {
-  height: 100%;
-  background: #FFE2AA;
-  heyy
+.col-lg-12 {
+	margin: 0;
+	padding: 0;
 }
+
+.container div {
+
+}
+
+.left-col {
+	background: #FFE2AA;
+	height: 100%;
+}
+
+.left-col div, img{
+left: 8%;
+margin: 0;
+}
+
+.left-col img {
+	position: absolute;
+	width: 110px;
+	top: 8%;
+
+}
+
+.right-col {
+background: url(photo.png);
+height: 100%;
+}
+
+.main-text {
+
+top: 20%;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+color: #000000;
+}
+
+.main-text h1 {
+	font-size: 80px;
+	line-height: 90px;
+}
+
+.main-text p {
+	line-height: 34px;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 5%;
+}
+
+
+.container .logosymbol {
+	position: absolute;
+	width: 325px;
+	top: 30%;
+	left: 42.5%;
+	z-index: 10;
+
+}
+
+.signup {
+	position: absolute;
+	top: 80%;
+	left: 20%;
+	width: 800px;
+	height: 170px;
+	background: #FFFCF7;
+	z-index: 12;
+}
+
+.signup .form-content {
+	position: absolute;
+	left: 8%;
+	top: 20%;
+}
+
+input {
+	position: absolute;
+	margin-top: 20px;
+	width: 335px;
+	height: 50px;
+	background: #FFFFFF;
+	border: 1.4px solid #000000;
+	box-sizing: border-box;
+}
+
