@@ -93,7 +93,16 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  h1 {color: black;} 
+  .hero-text h1 {
+    color: black;
+    font-size: 5rem;
+  } 
+
+  .hero-text p {
+    font-size: 1.5rem;
+  }
+
+
 
   .left-hero {
     height: 100vh;
