@@ -47,6 +47,14 @@ p {
 
 }
 
+input {
+  background: #FFFFFF;
+  border: 1.4px solid #000000;
+  box-sizing: border-box;
+  width: 50vw;
+  margin-right: 2vw;
+}
+
 
 /* Animation for line on button */
 
@@ -128,14 +136,6 @@ No media query for `xs` since this is the default in Bootstrap */
   padding: 0vw 2vw 0vw 2vw;
 }
 
-input {
-  background: #FFFFFF;
-  border: 1.4px solid #000000;
-  box-sizing: border-box;
-  width: 30vw;
-  margin-right: 2vw;
-}
-
 input::placeholder {
 font-family: Rubik;
 font-style: normal;
@@ -144,6 +144,24 @@ line-height: 23px;
 font-size: 18px;
 color: #C4C4C4;
 
+}
+
+input {
+  width: 30vw;
+}
+
+.logo-container {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo-container img {
+  position: absolute;
+  z-index: 1;
 }
 
 
