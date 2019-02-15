@@ -16,12 +16,12 @@ body, html {
 }
 
 h1 {
-  font-size: 5rem;color:black;
+  font-size: 2rem;color:black;
   padding-bottom: 5vw;
 }
 
 p {
-  font-size: 3rem;color:black;
+  font-size: 1rem;color:black;
 }
 
 .left-hero {
@@ -40,9 +40,8 @@ p {
 }
 
 .form-content {
-  padding-top: 10vh;
-  margin: 0vh 0vw 2vh 8vw;
-  }
+  padding: 15vh 8vw 0vw 8vw;
+}
 
 .logo-container {
   display: none;
@@ -54,12 +53,8 @@ input {
   border: 1.4px solid #000000;
   box-sizing: border-box;
   width: 50vw;
-  height: 3vh;
+  height: 5vh;
   margin-right: 2vw;
-}
-
-signup-line {
-  height: 30vh;
 }
 
 
@@ -71,11 +66,11 @@ signup-line {
   font-weight: normal;
   line-height: 23px;
   font-size: 18px;
-  font-size: 3rem;
+
   color: #000000;
   text-decoration: none;
-}
 
+}
 .mer-text a:after {
   display:block;
   content: '';
@@ -99,12 +94,6 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-  h1 {color: black;} 
   .hero-text h1 {
     color: black;
     font-size: 5rem;
@@ -156,13 +145,14 @@ No media query for `xs` since this is the default in Bootstrap */
   padding: 0vw 2vw 0vw 2vw;
 }
 
-#sg_email input::placeholder {
+input::placeholder {
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
 line-height: 23px;
-font-size: 3rem;
+font-size: 18px;
 color: #C4C4C4;
+
 }
 
 input {
@@ -184,12 +174,12 @@ input {
   padding-left: 7vw;
 }
 
-.mer-text a {
-  font-size: 1rem;
-}
-
 
 }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1 {color: black;} }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
